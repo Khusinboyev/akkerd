@@ -1,0 +1,19 @@
+from aiogram.dispatcher.filters.state import State, StatesGroup
+
+class From(StatesGroup):
+	channelAdd = State()
+	channelDelete = State()
+	send_msg = State()
+	forward_msg = State()
+	clear_msg = State()
+
+	admin = State()
+	admindelete = State()
+
+	tugmaadd = State()
+	tugmaDelete = State()
+
+	btn_info = State()
+	btn_nf = State()
+
+	onesave = State()
